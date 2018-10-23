@@ -1,0 +1,111 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  background-color: #97ACC9;
+}
+body header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 150px;
+  background-color: #5C6784;
+  border-bottom: 8px solid #1D263B;
+}
+body header .selected {
+  border-bottom: 5px solid #C9CAD9;
+}
+body header h1 {
+  font-size: 55px;
+  align-self: center;
+  color: #C9CAD9;
+}
+body header nav {
+  align-self: center;
+}
+body header nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+body header nav ul li {
+  align-self: center;
+  font-size: 30px;
+  color: #C9CAD9;
+}
+body .namesContainer {
+  width: 500px;
+  height: 200px;
+  margin: auto;
+  margin-top: 100px;
+}
+body .namesContainer #names {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+body .namesContainer #names li {
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  color: #69626D;
+}
+
+/*# sourceMappingURL=style.css.map */
